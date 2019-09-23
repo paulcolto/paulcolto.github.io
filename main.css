@@ -1,0 +1,225 @@
+* {
+  font-family: 'Mada', sans-serif;
+  color: #daf5f3; }
+
+html {
+  scroll-behavior: smooth; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+  body::-webkit-scrollbar {
+    width: 0; }
+
+nav {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  padding: 1rem; }
+
+nav a {
+  display: flex;
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem; }
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/img/banner-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; }
+
+.banner h1 {
+  font-size: 6rem;
+  font-weight: normal;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+.banner h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+  font-size: 4rem;
+  font-weight: normal;
+  color: white; }
+
+.intro {
+  padding: 3rem 6rem;
+  background-color: #324851;
+  text-align: center; }
+
+.intro h2 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  width: auto;
+  font-weight: bold; }
+
+.intro p {
+  font-size: 1.25rem; }
+
+.work {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 3rem 6rem;
+  background-color: #34675C; }
+
+.work-photo {
+  display: flex;
+  justify-content: space-around; }
+
+.work img {
+  width: 125px;
+  height: 125px;
+  border-radius: 100%; }
+
+.work h2 {
+  color: #daf5f3;
+  text-align: center; }
+
+.work p {
+  color: #daf5f3;
+  text-align: center; }
+
+.meet,
+.design,
+.develop,
+.launch,
+.cake {
+  padding: 1rem;
+  max-width: 20%;
+  min-width: 225px;
+  flex-wrap: wrap; }
+
+.portfolio-section {
+  background-color: #324851;
+  padding: 3rem 0 3rem 0; }
+
+.portfolio-section h2 {
+  margin: 0;
+  padding: 0 1rem;
+  text-align: center;
+  font-weight: normal; }
+
+.photos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center; }
+
+.hope {
+  display: flex;
+  justify-content: space-around; }
+
+.hope p {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 0; }
+
+.portfolio-section-photos {
+  justify-content: space-between;
+  margin: 2rem; }
+
+.photos img {
+  width: 175px;
+  height: 175px;
+  border-radius: 5%; }
+
+.skills-content {
+  background-color: #34675C;
+  padding: 3rem 6rem; }
+
+.skills-content h2 {
+  text-align: center;
+  margin-top: 0; }
+
+.svgs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem; }
+
+.skills-content img {
+  height: 100px;
+  padding: 0.5rem; }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(/img/mikulov.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.about p {
+  margin: 0;
+  padding: 1rem;
+  min-width: 300px;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.about .about-top {
+  padding-top: 1.5rem; }
+
+.contact {
+  background-color: #324851; }
+
+.contact h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2rem;
+  padding: 1rem 0 0 0; }
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem 1rem 1rem;
+  font-size: 1.5rem; }
+
+label {
+  padding: 1rem 0 1rem 1rem; }
+
+form input,
+form textarea {
+  font-size: 1rem;
+  color: #324851;
+  margin: 1rem; }
+
+.submit-button {
+  color: black; }
+
+footer {
+  background-color: #34675C;
+  margin: 0;
+  padding: 1rem 6rem; }
+
+footer h2 {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  font-weight: normal; }
+
+.social-links {
+  display: flex;
+  justify-content: center; }
+
+footer img {
+  height: 35px;
+  margin: 1rem; }
+
+footer p {
+  text-align: center;
+  font-size: 0.75rem; }
