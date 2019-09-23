@@ -1,0 +1,42 @@
+.portfolio-section {
+    background-color: $bluepine;
+    padding: 3rem 0 3rem 0;
+    
+}
+
+.portfolio-section h2 {
+    margin: 0;
+    padding: 0 1rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.hope {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hope p {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+.portfolio-section-photos {
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+.photos img {
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+}
+

@@ -1,0 +1,40 @@
+.work {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3rem 6rem;
+    background-color: $reflection;
+}
+
+.work-photo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.work img {
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+}
+
+.work h2 {
+    color: $mist;    
+    text-align: center;
+}
+
+.work p {
+    color: $mist;
+    text-align: center;
+}
+
+.meet,
+.design,
+.develop,
+.launch,
+.cake {
+    padding: 1rem;
+    max-width: 20%;
+    min-width:225px;
+    
+    flex-wrap: wrap;
+}
