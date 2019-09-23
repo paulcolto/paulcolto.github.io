@@ -1,0 +1,25 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/img/banner-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; }
+
+.banner h1 {
+  font-size: 6rem;
+  font-weight: normal;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+.banner h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+  font-size: 4rem;
+  font-weight: normal;
+  color: white; }

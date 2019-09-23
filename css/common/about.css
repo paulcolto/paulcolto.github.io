@@ -1,0 +1,17 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(/img/mikulov.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.about p {
+  margin: 0;
+  padding: 1rem;
+  min-width: 300px;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.about .about-top {
+  padding-top: 1.5rem; }
